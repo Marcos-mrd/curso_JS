@@ -1,39 +1,49 @@
+@font-face {
+    font-family: festiva ;
+    src: url("assets/font/HugeParty.ttf");
+}
+
 body{
     background-color: rgba(173, 172, 172, 0.726);
     font-family: Arial, Helvetica, sans-serif;
 } 
 
 header{
-    background-color: black;
-    background-image: url(assets/pexels-miguel-á-padriñán-1111317.jpg);
-    background-repeat: no-repeat;
-    background-size:cover ;
-    background-position:center ;
-    height: 250px;
+    background-color: #333138;
+   
+  
+}
+.cabeca{
+    font-size: 40px;
+    font-family: festiva;
     color: white;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 35px;
+    font-size: 60px;
+   
 }
-header > h1{
-    padding-top: 50px;
-    padding-left: 120px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif
-}
-main{
-    text-align: center;
-}
-
-main > ul > li{
-
-    display: inline-block;
-    font-size: 24px;
-    margin-top: 50px;
+ul > li >  img{
+    width: 200px;
+    height: 200px;
+    margin-top: 25vh;
     margin-left: 10px;
-    padding: 6px;
-    background-color: gray;
-    border-radius: 6px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.356);
+
+    
+   
 }
 
-li:hover{
-    background-color: rgb(105, 107, 107);
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px;
+}
+.opcao{
+    display: flex;
+    justify-content: center;
+    
+    
 }
