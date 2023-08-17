@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minha tabuada</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main>
+    <div class="digite">
+        <label for="num1">Digite um numero:</label>
+        <input type="text" name="num1" id="num1">
+
+        <label for="num2">Digite outro numero:</label>
+        <input type="text" name="num2" id="num2">
+    </div>
+    
+    <div class="botao">
+        <button onclick="multiplicacao()">MULTIPLICAÇÃO</button>
+
+        <button onclick="soma()">ADIÇÃO </button>
+    
+        <button onclick="subtracao()">SUBTRAÇÃO</button>
+    </div>
+
+    <div id="resultado">
+        
+    </div>
+
+    <script src="tabuada.js"></script>
+ </main>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: gray;
+    height: 300px;
+    margin: 25px;
+    padding: 28px;
+    border-radius: 20px;
+}
+main > .digite > label{
+    
+}
+main > .digite{
+    height: 100px;
+    padding: 20px;
+}
+
+main > .botao{
+    text-align: center;
+}
+
+button{
+    margin-left: 25px;
+    background-color: black;
+    border-radius: 50px;
+    border: 0px;
+    color: white;
+    padding: 25px;
+    width: 150px;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.603);
+}
+
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 3px 3px white;
+}
+
+#resultado{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black ;
+    background-color: white;
+    color: black;
+    margin-top: 25px;
+    font-size: 25px;
+    
+}
