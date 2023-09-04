@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     botaoEncontrarCachorrinho.addEventListener("click", function() {
       // Mudar a cor de fundo do parque para uma cor brilhante
       const parque = document.getElementById("parque");
-        
+      parque.style.backgroundImage = "yellow";
+  
       // Exibir a imagem do cachorrinho
       imagemCachorrinho.style.display = "block";
 

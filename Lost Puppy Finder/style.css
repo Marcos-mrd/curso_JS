@@ -36,7 +36,6 @@ body{
     border-radius: 60px;
     height: 100%;
     animation: float 2s ease-in-out infinite;
-    transform: perspective(1.1);
   }
 
   @keyframes float{
