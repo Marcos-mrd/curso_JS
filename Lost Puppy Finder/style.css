@@ -36,6 +36,11 @@ body{
     border-radius: 60px;
     height: 100%;
     animation: float 2s ease-in-out infinite;
+    border: 5px solid black;
+    box-shadow: 80px 80px 9px rgba(0, 0, 0, 0.637);
+
+
+    
   }
 
   @keyframes float{
@@ -56,7 +61,7 @@ body{
     border: 2px solid black;
     border-radius: 90px;
     margin-top: 80px;
-    transition: 0.5s;
+    transition: 0.2s;
   }
     button:hover{
         transform: scale(1.1);
