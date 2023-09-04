@@ -8,7 +8,7 @@ body{
     flex-direction: column-reverse;
     align-items: center; 
     height: 100vh;
-    background-color: black;
+    background: linear-gradient(120deg, black 25%, rgb(0, 0, 0) 25%,  white 100%);
     margin: 85px 85px;
     border-radius: 90px;
     
@@ -24,13 +24,32 @@ body{
     margin: 50px 50px 0px;
     width: 60vw;
     height: 60vh;
+    animation: float 2s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+
   }
   
   #parque img {
     max-width: 100%;
     display: none; 
     border-radius: 60px;
+    height: 100%;
+    animation: float 2s ease-in-out infinite;
+    transform: perspective(1.1);
   }
+
+  @keyframes float{
+    0%,100%{
+        transform: translatey(10);
+    }
+    50%{
+        transform: translatey(-10px);
+    }
+
+  }
+
+  
   button{
     width: 50vw;
     background-color: gray;
@@ -38,7 +57,11 @@ body{
     border: 2px solid black;
     border-radius: 90px;
     margin-top: 80px;
+    transition: 0.5s;
   }
+    button:hover{
+        transform: scale(1.1);
+    }
 
 
 
