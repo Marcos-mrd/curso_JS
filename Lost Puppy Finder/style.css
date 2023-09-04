@@ -1,34 +1,44 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+
+html{
+    background-color: white;
 }
-header{
-    background-color: rgb(128, 128, 128);
-    height: 150px;
-    width: 100vw;
+body{
     display: flex;
     justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center; 
+    height: 100vh;
+    background-color: black;
+    margin: 85px 85px;
+    border-radius: 90px;
+    
 }
-h1{
-    text-align: center;
-    height: 40px;
-    width: 500px;
-    font-size: 50px;
-    background-color: white;
-    border-radius: 25px;
-    text-shadow: 2px 6px 4px ;
+#parque {
+    background-image: url("assets/img/free-photo-of-bolsas-sacolas-alforjes-valises.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 20px;
-    margin: 10px;
-    border: 2px solid black;
-    }
-h1:hover{
-    transform: scale(1.1);
-}
-main{
-    background-color: aqua;
-}
-
-main > #conterner{
-    background-color: aqua;
+    border-radius: 98px;
+    box-shadow: 2px 5px 10px rgba(255, 255, 255, 0.479);
+    margin: 50px 50px 0px;
+    width: 60vw;
+    height: 60vh;
+  }
   
-}
+  #parque img {
+    max-width: 100%;
+    display: none; 
+    border-radius: 60px;
+  }
+  button{
+    width: 50vw;
+    background-color: gray;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 90px;
+    margin-top: 80px;
+  }
+
+
 
