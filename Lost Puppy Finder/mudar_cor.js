@@ -12,8 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
         imagemCachorrinho.style.display = "block";
       }
 
-      this.click =  true 
-      imagemCachorrinho.style.display = "none";
       
       
      
