@@ -1,0 +1,71 @@
+
+html{
+    background-color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center; 
+    height: 100vh;
+    background: linear-gradient(120deg, black 25%, rgb(0, 0, 0) 25%,  white 100%);
+    margin: 85px 85px;
+    border-radius: 90px;
+    
+}
+#parque {
+    background-image: url("assets/img/free-photo-of-bolsas-sacolas-alforjes-valises.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 98px;
+    box-shadow: 2px 5px 10px rgba(255, 255, 255, 0.479);
+    margin: 50px 50px 0px;
+    width: 60vw;
+    height: 60vh;
+    animation: float 2s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  #parque img {
+    max-width: 100%;
+    display: none; 
+    border-radius: 60px;
+    height: 100%;
+    animation: float 2s ease-in-out infinite;
+    border: 5px solid black;
+    box-shadow: 80px 80px 9px rgba(0, 0, 0, 0.637);
+
+
+    
+  }
+
+  @keyframes float{
+    0%,100%{
+        transform: translatey(10);
+    }
+    50%{
+        transform: translatey(-10px);
+    }
+
+  }
+
+  
+  button{
+    width: 50vw;
+    background-color: gray;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 90px;
+    margin-top: 80px;
+    transition: 0.2s;
+  }
+    button:hover{
+        transform: scale(1.1);
+    }
+
+
+
