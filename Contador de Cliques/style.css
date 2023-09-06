@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 28em;
+}
+p{
+    text-align: center;
+    font-size: 28em;
+    
+}
+
+button{
+    height: 400px;
+    width: 400px;
+    font-size: 5em;
+}

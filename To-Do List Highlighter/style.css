@@ -1,0 +1,55 @@
+ html{
+    
+ }
+
+.lista {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+h1{
+    padding: 28px;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    background-color: black;
+}
+
+
+ul{
+    background-color: black;
+    height: 60vh;
+    width: 60vw;
+    color: white;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+li{
+    margin: 20px;
+    background-color: rgba(201, 193, 193, 0.774);
+    padding: 25px;
+    font-size: 5em;
+    border-radius: 25px;
+    transition:  transform 0.5s ease ;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.555);
+}
+li:hover{
+    transform: scale(1.1);
+    transition:  transform 0s ease ;
+    box-shadow: 25px 18px 8px rgba(255, 255, 255, 0.158) ;
+}
+
+
+
+.completed {
+    background-color: #7FFF00; 
+    
+    /*
+     Define a cor de fundo para tarefas concluídas */
+    /* Outros estilos para tarefas concluídas, se desejar */
+}

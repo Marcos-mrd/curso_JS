@@ -1,0 +1,55 @@
+
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    background-color: white;
+    color: black;
+    padding: 25px;
+   
+    
+}
+.listaPerguntas{
+    background-color: white;
+    height: 900px;
+    margin-top: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+li{
+    margin-top: 48px;
+    font-size: 30px;
+    padding: 25px;
+    background-color: rgb(236, 143, 159);
+    box-shadow: 2px 2px 4px rgba(255, 192, 203, 0.705);
+    color: white;
+    border-radius: 35px;
+    
+}
+
+.completed{
+    background-color: pink ;
+    height: 300px;
+    width: 300px;
+    display: block;
+    color: black;   
+}
+ div{
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 26px;
+    color: white;
+    background-color: rgb(243, 20, 57);
+    font-size: 25px;
+   
+    
+   
+
+ }
